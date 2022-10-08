@@ -1,9 +1,8 @@
-# 📍 Site Portfólio
+# 📍 Site Portfolio
+![Portfólio-Rauane-Lima (3)](https://user-images.githubusercontent.com/102835801/194684482-9afee672-1fdd-4657-ae5a-81a04989a07e.png)
 
 # 📍 Bibliotecas utilizadas
 - Google fonts (https://fonts.google.com/)
-![Portfólio-Rauane-Lima (3)](https://user-images.githubusercontent.com/102835801/194684482-9afee672-1fdd-4657-ae5a-81a04989a07e.png)
-
 - emojipedia (https://emojipedia.org/objects/)
  
 # 📍 Tecnologias 
