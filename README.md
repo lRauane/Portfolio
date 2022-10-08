@@ -1,10 +1,9 @@
 # 📍 Site Portfólio
-![screenshot (6)](https://user-images.githubusercontent.com/102835801/182047544-0aa0c62d-36b8-415c-bf87-dda1ddac1526.png)
-
 
 # 📍 Bibliotecas utilizadas
 - Google fonts (https://fonts.google.com/)
-- Pexels (https://www.pexels.com/pt-br/)
+![Portfólio-Rauane-Lima (3)](https://user-images.githubusercontent.com/102835801/194684482-9afee672-1fdd-4657-ae5a-81a04989a07e.png)
+
 - emojipedia (https://emojipedia.org/objects/)
  
 # 📍 Tecnologias 
@@ -26,6 +25,5 @@
 
 # 📍 Como posso acessar esse projeto
 ### Voce pode acessa esse site pelo Qr code abaixo ou também pelo link:
-![frame (3)](https://user-images.githubusercontent.com/102835801/172059625-28c7dc5f-79db-4e62-bbd1-e7ef6cbfdddc.png)
 
-- Hospedado: (https://portfolio-rauane.netlify.app/)
+- Hospedado: (https://portfolio-rauanel.netlify.app/)
