@@ -7,14 +7,13 @@
 
   --font-Family1: 'Poppins', 'Times New Roman', Times, serif;
 }
-p{
-  font-size: 1.1rem;
-}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 
 /* GENERICS */
 .container {
@@ -37,7 +36,9 @@ body {
 
   background: var(--colorPrimary);
 }
-
+p{
+  font-size: 1.1rem;
+}
 h1 {
   text-transform: uppercase;
   font-size: 1.5em;
@@ -69,6 +70,7 @@ hr{
   margin-top: 28px;
   margin-bottom: 28px;
 }
+
 .section--header a,
 .galery-Elements a {
   background-color: #a3a3d1;
@@ -128,11 +130,13 @@ hr{
 }
 
 .section--aboutMe h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .section--aboutMe p{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  
 }
+
 
 /* HABILIDADES */
 .section--redes {
@@ -212,10 +216,9 @@ hr{
   font-size: 20px;
   line-height: 250px;
   width: 40px;
-  color: #fff;
+  color: #a3a3d1;
   transition: all 600ms ease-in-out;
   background: linear-gradient(to left, transparent 0%, black 200%);
-  opacity: 0.1;
   cursor: pointer;
   border: none;
 }

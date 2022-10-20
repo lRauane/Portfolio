@@ -1,83 +1,97 @@
-@media (max-width:450px){
-    body{
-       flex-direction: column;
-       font-size: 1.3rem;
-    }
-    
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .section--header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        width: 340px;
-        line-height: 40px;
-        height: 740px;
-      }
-      .section--header h2{
-        width: 310px;
-      }
+@media (max-width: 450px) {
+  body {
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
 
-      .section--aboutMe {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section--header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        margin-top: 25px;
-        margin-right: 30px;
+    width: 380px;
+    line-height: 40px;
+    height: 740px;
+  }
+  .section--header h2 {
+    width: 310px;
+  }
 
-      
-        width: 340px;
-        height: 740px;
+  .section--aboutMe,
+  .section--Projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-        
-    
-      }
-      
-      .section--aboutMe p{
-        font-size: 1.0rem;
-        height: 410px;
-      }
+    margin-top: 25px;
+    margin-right: 30px;
+
+    width: 380px;
+    height: 740px;
+  }
+
+  .section--aboutMe p {
+    font-size: 1rem;
+  }
+
+  .section--redes {
+    padding: 0px;
+    margin-bottom: 25px;
+    width: 380px;
+    height: 140px;
+  }
+  .section--redes img {
+    margin-top: 20px;
+    width: 40px;
+  }
+
+  .section--Projetos .section-projetos-cards {
+    width: 200px;
+    height: 300px;
+  }
+
+  .section--Projetos .section-projetos-cards img {
+    border-radius: 10px;
+    width: 50px;
+  }
+  .container-slider {
+    padding: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .section--Projetos p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+ 
+}
 
 
-      .section--redes{
-        padding: 0px;
-        margin-bottom: 25px;
-        width: 340px;
-        height: 140px;
-        
-      }
-      .section--redes img {
-        margin-top: 20px;
-        width: 40px;
-      }
 
-      .section--Projetos {
-        padding: 20px;
-        border-radius: 10px;
-      
-        width: 370px;
-        height: 740px;
-      }
-      
-      .section--Projetos .section-projetos-cards {
-        padding: 20px;
-        width: 850px;
-      
-      }
 
-      .section--Projetos .section-projetos-cards img {
-        border-radius: 10px;
-        width: 100px;
-      }
-      
 
-      
 
+
+
+
+
+@media (max-width: 820px) {
+  body {
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
