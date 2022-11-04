@@ -155,10 +155,16 @@ hr{
   background-color: var(--colorSecundary);
 }
 
+
 .section--redes img {
   margin-top: 20px;
   width: 50px;
+  transition: transform 0.2s;
 }
+.section--redes img:hover{
+  transform: scale(1.2);
+}
+
 
 /* projetos */
 .section--Projetos {
@@ -272,4 +278,22 @@ hr{
 .gallery-wrapper {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.section--header,
+.section--aboutMe,
+.section--Projetos,
+.section--redes  {
+  animation: appear 3s;
+}
+
+@keyframes appear{
+  0%{
+    transform: translateY(-50px);
+    opacity:0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
