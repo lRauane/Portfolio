@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   body {
     flex-direction: column;
     font-size: 1.3rem;
@@ -11,22 +11,29 @@
     align-items: center;
     justify-content: center;
   }
+
   .section--header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 380px;
-   
+
     height: 800px;
   }
+
   .section--header h2 {
     width: 310px;
   }
 
+  .section--header h3 {
+    width: 250px;
+    margin: 0 auto;
+
+  }
+
   .section--aboutMe,
   .section--Projetos {
-  
+
 
     margin-top: 25px;
     margin-right: 30px;
@@ -34,7 +41,8 @@
     width: 380px;
     height: 740px;
   }
-  .section--Projetos{
+
+  .section--Projetos {
     margin-bottom: 50px;
   }
 
@@ -48,40 +56,46 @@
     width: 380px;
     height: 140px;
   }
+
   .section--redes img {
-    margin-top: 20px;
+
     width: 40px;
   }
 
-  
+  .section--Projetos .gallery-wrapper .gallery .galery-Elements img {
+
+    width: 320px;
+  }
 
   .section--Projetos .section-projetos-cards {
-    width: 200px;
+    width: 100px;
     height: 300px;
   }
 
-  .section--Projetos .section-projetos-cards img {
-    border-radius: 10px;
-    width: 50px;
-  }
   .container-slider {
     padding: 10px;
-    max-width: 350px;
+    width: 100%;
     margin: 0 auto;
   }
-  .section--Projetos p {
-    margin-top: 10px;
-    font-size: 1rem;
+
+  .section--Projetos h3 {
+    width: 250px;
   }
- 
+
+  .section--Projetos p {
+
+    width: 76%;
+    font-size: 1.0rem;
+  }
+
 }
 
-
-@media (min-width: 768px) {
+@media (max-width: 768px) and (min-width: 520px) {
   body {
     margin: auto;
     font-size: 1.3rem;
   }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -89,13 +103,15 @@
     justify-content: center;
     gap: 20px;
   }
-  .section--header{
+
+  .section--header {
     margin-left: 25px;
   }
+
   .section--header,
   .section--aboutMe,
   .section--Projetos,
-  .section--redes  {
+  .section--redes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +119,7 @@
     width: 500px;
   }
 
-  
+
   .section--aboutMe p {
     font-size: 1.1rem;
   }
@@ -122,13 +138,21 @@
     border-radius: 10px;
     width: 500px;
   }
+
   .container-slider {
     padding: 10px;
     max-width: 450px;
     margin: 0 auto;
   }
+
   .section--Projetos p {
     margin-top: 10px;
     font-size: 1rem;
-  } 
+  }
+}
+
+@media (max-width: 800px) and (min-width:1200px) {
+  body {
+    display: flex;
+  }
 }
