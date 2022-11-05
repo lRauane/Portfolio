@@ -8,11 +8,6 @@
   --font-Family1: 'Poppins', 'Times New Roman', Times, serif;
 }
 
-body.white{
-  --colorPrimary: #ffffff;
-
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -39,7 +34,6 @@ body {
   font-size: 1.5rem;
   color: var(--colorComplement3);
 
-  overflow-x: hidden;
   background: var(--colorPrimary);
 }
 p{
@@ -161,16 +155,10 @@ hr{
   background-color: var(--colorSecundary);
 }
 
-
 .section--redes img {
   margin-top: 20px;
   width: 50px;
-  transition: transform 0.2s;
 }
-.section--redes img:hover{
-  transform: scale(1.2);
-}
-
 
 /* projetos */
 .section--Projetos {
@@ -230,7 +218,7 @@ hr{
   width: 40px;
   color: #a3a3d1;
   transition: all 600ms ease-in-out;
-  background: linear-gradient(to right, transparent 0%, #2f3036  300%);
+  background: linear-gradient(to left, transparent 0%, black 200%);
   cursor: pointer;
   border: none;
 }
@@ -244,7 +232,7 @@ hr{
   right: 0;
   left: auto;
   text-align: right;
-  background: linear-gradient(to right, transparent 0%, #2f3036  300%);
+  background: linear-gradient(to right, transparent 0%, black 200%);
 }
 
 .gallery {
