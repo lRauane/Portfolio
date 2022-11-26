@@ -32,4 +32,6 @@ controls.forEach((control) => {
   });
 });
 
+AOS.init();
+
 

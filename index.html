@@ -13,6 +13,7 @@
   <meta name="author" content="Rauane Lima jesus" />
 
   <!-- CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media.css">
 
@@ -32,7 +33,7 @@
 
 <body>
   <div class="container">
-    <header class="header">
+    <header class="header" data-aos="fade-right">
       <section class="section--header">
         <div class="section--header-initial">
           <h2>Portfólio</h2>
@@ -55,7 +56,7 @@
       </section>
     </header>
     <main>
-      <section class="section--aboutMe">
+      <section class="section--aboutMe" data-aos="fade-left">
         <h2>Sobre mim</h2>
         <p>
           Tenho experiência de 7 meses em programação com conhecimentos de HTML5, CSS3 e Javascript. Graduando em TI na
@@ -68,9 +69,7 @@
         </p>
       </section>
 
-
-
-      <section class="section--redes">
+      <section class="section--redes" data-aos="fade-down-left">
         <div class="section--header-item">
           <h2>Habilidades</h2>
           <div id="section--header-skills-icon">
@@ -328,6 +327,7 @@
 
   </div>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="/assets/js/script.js"></script>
   <script src="./project.js"></script>
 </body>
