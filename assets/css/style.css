@@ -106,15 +106,16 @@ hr{
   border-radius: 1rem;
   box-shadow: 3px 3px 0px var(--colorComplement1);
   width: 100%;
-  line-height: 130%;
-  height: auto;
+  height: 97%;
   background-color: var(--colorSecundary);
 }
+
 .section--header img {
   width: 100%;
+  height: auto;
   margin-top: 0.5rem;
-  border-radius: 55%;
-  border: 8px solid #a3a3d1;
+  border-radius: 10%;
+  border: 10px solid #8989e4;
 }
 .section--header h2{
   width: 300px;
@@ -123,7 +124,7 @@ hr{
 
 /* ABOUT */
 .section--aboutMe {
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
   margin-top: 2rem;
 
@@ -275,4 +276,3 @@ hr{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
