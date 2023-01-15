@@ -259,6 +259,7 @@ hr{
 .item {
   width: 250px;
   height: 250px;
+  margin-top: 150px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
 }
