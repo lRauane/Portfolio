@@ -3,6 +3,22 @@ let currentItem = 0;
 const items = document.querySelectorAll(".item");
 const maxItems = items.length;
 
+const readMore = document.getElementById("read-more-btn");
+const readeMenos = document.getElementById("read-menos-btn");
+const moreContent = document.getElementById("more-content");
+
+
+readMore.addEventListener("click", function(){
+  moreContent.style.display = "inline";
+  this.style.display = "none"
+});
+
+readeMenos.addEventListener("click", function(){
+ moreContent.style.display = "none";
+ readMore.style.display ="inline"
+});
+
+
 controls.forEach((control) => {
   control.addEventListener("click", (e) => {
     isLeft = e.target.classList.contains("arrow-left");

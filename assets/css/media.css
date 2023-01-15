@@ -10,16 +10,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
   }
 
-  .section--header {
-    padding: 2rem;
-  }
+ 
 
+  .section--header,
   .section--aboutMe,
-  .section--redes,
-  .section--Projetos {
+  .section--redes {
     padding: 2rem;
     margin: 0 auto;
     margin-top: 1.2rem;
@@ -27,15 +24,48 @@
     height: auto;
   }
 
-  .section--aboutMe h2 {
-    width: 100%;
-    margin-bottom: 10px;
+  
+  .section--Projetos {
+    margin-right: .3rem;
+    width: 110%;
+    height: 650px;
+    margin-top: 2rem;
+
+  }
+  .section--Projetos .section-projetos-cards {
+    padding: 2rem;
+    width: 200px;
+  }
+  .gallery .galery-Elements img {
+    width: 300px;
+  
+    height: 200px;
+  }
+  .gallery .galery-Elements h3 {
+    padding: 1rem;
+    width: 250px;
+    margin-top: 0px;
+    height: 100px;
+  
+    text-align: center;
+    font-size:.9em;
+  }
+  .gallery .galery-Elements p {
+    width: 300px;
+    font-size: .9rem;
+    height: 200px;
   }
 
   .container-slider {
-    padding: 1.5rem;
-    width: 100%;
+    position: inherit;
+    padding: 2rem;
+    max-width: 600px;
     margin: 0 auto;
+  }
+
+  .section--aboutMe h2 {
+    width: 100%;
+    margin-bottom: 10px;
   }
 
 }
